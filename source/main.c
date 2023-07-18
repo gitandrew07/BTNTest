@@ -6,7 +6,7 @@ int main(void) {
 	consoleDemoInit();
 	iprintf("BTNTest\n");
 	iprintf("By andre_w\n");
-	iprintf("Press and hold START to exit the app\n");
+	iprintf("Press START to exit the app\n");
 	while(1) {
 		swiWaitForVBlank();
 		scanKeys();
